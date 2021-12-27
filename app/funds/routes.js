@@ -40,7 +40,7 @@ router.put('/funds/:id', (req, res) => {
     "industry": req.body.industry,
     "headquarters": req.body.headquarters
   })
-  res.json(updatedBook)
+  res.json(updatedFund)
 })
 
 // router.patch('/books/cart/add/:id', function (req, res) {
